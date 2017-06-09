@@ -49,7 +49,7 @@
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="aosp,pdk,tradefed" name="platform/build/blueprint" path="build/blueprint"/>
-  <project groups="aosp,pdk,tradefed" name="platform/build/kati" path="build/kati"/>
+  <project groups="aosp,pdk,tradefed" name="platform/build/kati" path="build/kati" revision="d4f287145feb677e99f0bf30fa6a0e14bd79f896" />
   <project groups="aosp,pdk,tradefed" name="platform/build/soong" path="build/soong">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
